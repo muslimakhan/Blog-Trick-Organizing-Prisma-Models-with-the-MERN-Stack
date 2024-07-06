@@ -1,0 +1,38 @@
+[
+    {
+        "firstName": "Muslim",
+        "lastName": "Ahmed Khan",
+        "username": "muslim12",
+        "email": "muslimahmadkhan@gmail.com",
+        "contactNo": "8114463283",
+        "password": "$argon2id$v=19$m=65536,t=3,p=4$Pch5LlbkBWYk610M1xkhAA$UUSR9dDryccvgtiADKjD+twoBUJYdM5X8K2XagdcDdY",
+        "gender": "Male",
+        "dob": "12-03-1991",
+        "nationality": "Indian",
+        "slug": "muslim12"
+    },
+    {
+        "firstName": "Hasan",
+        "lastName": "Ahmed Khan",
+        "username": "hasan15",
+        "email": "muslimahmadkhan1@gmail.com",
+        "contactNo": "9001000233",
+        "password": "$argon2id$v=19$m=65536,t=3,p=4$Pch5LlbkBWYk610M1xkhAA$UUSR9dDryccvgtiADKjD+twoBUJYdM5X8K2XagdcDdY",
+        "gender": "Male",
+        "dob": "15-09-2019",
+        "nationality": "Indian",
+        "slug": "hasan15"
+    },
+    {
+        "firstName": "Husain",
+        "lastName": "Ahmed Khan",
+        "username": "husain05",
+        "email": "muslimahmadkhan2@gmail.com",
+        "contactNo": "+919001000233",
+        "password": "$argon2id$v=19$m=65536,t=3,p=4$Pch5LlbkBWYk610M1xkhAA$UUSR9dDryccvgtiADKjD+twoBUJYdM5X8K2XagdcDdY",
+        "gender": "Male",
+        "dob": "05-07-2022",
+        "nationality": "Indian",
+        "slug": "husain05"
+    }
+]

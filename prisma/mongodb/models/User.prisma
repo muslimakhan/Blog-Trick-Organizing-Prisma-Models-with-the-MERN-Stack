@@ -1,0 +1,16 @@
+// User model
+model User {
+    id                 String   @id @default(uuid()) @map("_id")
+    firstName          String?
+    lastName           String?
+    username           String   @unique
+    email              String   @unique
+    contactNo          BigInt?  @unique
+    password           String? 
+    gender             Gender
+    dob                String?
+    nationality        String? 
+    slug               String?
+    orderBy            String?  @default("1")
+    status             Status   @default(Active)
+}

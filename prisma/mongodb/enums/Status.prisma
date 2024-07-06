@@ -1,0 +1,6 @@
+// Status Enum
+enum Status {
+    Active
+    Inactive
+    Pending
+}

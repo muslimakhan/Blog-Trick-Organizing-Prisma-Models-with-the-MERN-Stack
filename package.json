@@ -1,0 +1,31 @@
+{
+  "name": "mern-prisma",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "prisma-merge": "node prisma/mongodb/mergeSchemas.js",
+    "prisma-generate": "prisma generate",
+    "prisma-push": "prisma db push",
+    "prisma-import": "node prisma/mongodb/import.js",
+    "prisma-studio": "prisma studio",
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@prisma/client": "^5.16.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "glob": "^10.4.3",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4",
+    "prisma": "^5.16.1"
+  }
+}

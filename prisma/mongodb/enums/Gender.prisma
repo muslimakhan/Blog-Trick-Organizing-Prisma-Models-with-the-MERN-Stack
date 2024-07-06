@@ -1,0 +1,6 @@
+// Gender Enum
+enum Gender {
+    Male
+    Female
+    Other
+}
